@@ -118,3 +118,11 @@ h4 {
     max-width: 18px;
   }
 }
+@media screen and (max-width: 870px) {
+      
+
+  .container {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}

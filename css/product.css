@@ -86,3 +86,11 @@ section {
         padding-bottom: 30px;
     }
 }
+@media screen and (max-width: 870px) {
+      
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
