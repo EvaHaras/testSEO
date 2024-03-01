@@ -29,6 +29,15 @@
         text-align: center;
         color: #bcbcbc;
     }
+    h1 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 100%;
+        text-align: center;
+        color: #bcbcbc;
+        margin-bottom: 40px;
+    }
 
     ul {
         list-style: none;
