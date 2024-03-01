@@ -1,0 +1,136 @@
+footer {
+    background-color: #010114;
+
+
+    .container {
+        padding: 40px 80px;
+        max-width: 1440px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+    @media screen and (max-width: 630px) {
+       .container{
+        flex-direction: column-reverse;
+     
+       
+       }
+       .copyright{
+        padding-top: 30px;
+        text-align: center;
+       }
+       .logo {
+        margin: auto;
+    }
+    .link{
+        margin: auto;
+        padding-top: 30px;
+    }
+    }
+    @media screen and (max-width: 440px) {
+        .link{
+            flex-direction: column;
+        }
+        
+    }
+
+    article {
+        max-width: 350px;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo {
+        max-width: 57px;
+        
+    }
+
+    .copyright {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 116%;
+        color: #eaeaec;
+
+    }
+
+    .link {
+        display: flex;
+        gap: 40px;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            text-align: start;
+            padding-top: 10px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 113%;
+            color: #f8f8f8;
+
+            a {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 120%;
+                letter-spacing: 0.04em;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .social {
+        li:nth-child(2)::before {
+            content: "";
+            background-image: url('../image/facebook.svg');
+            margin-right: 10px;
+            height: 16px;
+            width: 16px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+        li:nth-child(3)::before {
+            content: "";
+            background-image: url('../image/twitter.svg');
+            margin-right: 10px;
+            height: 16px;
+            width: 16px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            vertical-align: middle;
+            
+        }
+        li:nth-child(4)::before {
+            content: "";
+            background-image: url('../image/instagram.svg');
+            margin-right: 10px;
+            height: 16px;
+            width: 16px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            vertical-align: middle;
+            
+        }
+        li:nth-child(5)::before {
+            content: "";
+            background-image: url('../image/youtube.svg');
+            margin-right: 10px;
+            height: 16px;
+            width: 16px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            vertical-align: middle;
+            
+        }
+      
+    }
+}
